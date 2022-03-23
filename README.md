@@ -1,10 +1,10 @@
-<h1 align="center"> macOS on Huawei Matebook 12 2020 </h1>
+<h1 align="center"> macOS on Huawei Matebook 13 2020 </h1>
 
 <p align="center">
-  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/Matebook%2013%202020.png" alt="Huawei Matebook 12 2020">
+  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/Matebook%2013%202020.png" alt="Huawei Matebook 13 2020">
 </p>
 
-<h4 align="center"> OpenCore config for Hackintosh Huawei Matebook 12 2020 </h4>
+<h4 align="center"> OpenCore config for Hackintosh Huawei Matebook 13 2020 </h4>
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
@@ -54,20 +54,20 @@
 
 <details>
   <summary> <h3>Photos</h3> </summary>
-  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/Matebook%20Photo.jpg" alt="Huawei Matebook 12 2020">
+  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/Matebook%20Photo.jpg" alt="Huawei Matebook 13 2020">
 </details>
 
 ## Original Hardware  💻
 
 Type | Spec | Status
 :---------|:---------|:----------
-Model Name      | Huawei Matebook 12 2020 | ✅
+Model Name      | Huawei Matebook 13 2020 | ✅
 CPU              | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz Comet Lake | ✅
 RAM           | 8 GB 2400 MHz DDR4 | ✅
 Internal Graphics Card | Intel(R) UHD Graphics 630 (1 GB) | ✅
 External Graphics Card | NVIDIA GeForce MX250 (2GB) | ❌
 Wi-Fi             | Intel Wireless-AC 9462 | ✅
-Audio       | ?? | ✅
+Audio       | Realtek ALC256 | ✅
 Camera | Azurewave ?? | ❌
 Fingerprint | Unknown | ❌
 
@@ -84,7 +84,7 @@ Turbo boost and CPU frequency stage |  ✅
 Intel UHD Graphics 630              |  ✅  
 Brightness control                  |  ✅  
 HDMI                                |  ✅  
-Audio             |  ✅  
+Audio Realtek ALC256            |  ✅  
 Intel Wireless-AC 9462 Wi-Fi and Bluetooth, Handoff, iMessage...         |  ✅  
 2 Type-C Port       |  ✅  
 Touchpad (14 gestures are working)   |  ✅  
