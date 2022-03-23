@@ -106,7 +106,7 @@ Kext | Info
 [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
 [AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 [VerbStub.kext](https://github.com/hackintosh-stuff/ComboJack) | Fixes jack headphone audio and microphone.
-[USBInjectAl](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports.
+[USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) | Kext to inject USB ports.
 [VoodooI2C.kext](https://github.com/VoodooI2C/VoodooI2C) | VoodooI2C is consisting of macOS kernel extensions that add support for I2C bus devices.
 [VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C) | Adds support for I2C-HID devices.
 [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad.
