@@ -29,8 +29,8 @@
   - [What's working](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-working--)
   - [What's not working](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-not-working-)
   - [What's you have to do](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-you-have-to-do--)
-  - [Kexts Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#kext's-used)
-  - [SSDTs Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#ssdts-used)
+  - [Kexts Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#kext-used)
+  - [SSDTs Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#ssdt-used)
   - [Credits](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#credits)
   - [Donate](https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Bağış.md)
   
