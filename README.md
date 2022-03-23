@@ -24,7 +24,7 @@
   
 ## Contents
   - [Screenshots](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#screenshots-)
-  - [Photos](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#Photos-)
+  - [Photos](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#photos)
   - [Original Hardware](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#original-hardware--)
   - [macOS Update History](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#macos-update-history)
   - [What's working](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-working--)
