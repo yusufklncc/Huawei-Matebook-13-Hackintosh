@@ -24,6 +24,7 @@
   
 ## Contents
   - [Screenshots](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#screenshots-)
+  - [Photos](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#Photos-)
   - [Original Hardware](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#original-hardware--)
   - [macOS Update History](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#macos-update-history)
   - [What's working](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-working--)
@@ -39,6 +40,11 @@
 <p align="center">
   <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/macOS/macOS%20Monterey.png">
 </p>
+
+<details>
+  <summary> <h3>Photos</h3> </summary>
+  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/Matebook%20Photo.jpg" alt="Huawei Matebook 12 2020">
+</details>
 
 ## Original Hardware  💻
 
