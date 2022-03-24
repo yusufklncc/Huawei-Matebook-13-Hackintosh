@@ -69,7 +69,7 @@ Internal Graphics Card | Intel(R) UHD Graphics 630 (1 GB) | ✅
 External Graphics Card | NVIDIA GeForce MX250 (2GB) | ❌
 Wi-Fi             | Intel Wireless-AC 9462 | ✅
 Audio       | Realtek ALC256 | ✅
-Camera | Azurewave ?? | ❌
+Camera | Azurewave | ❌
 Fingerprint | Unknown | ❌
 
 ## macOS Update History
