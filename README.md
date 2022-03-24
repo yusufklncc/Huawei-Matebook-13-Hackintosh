@@ -162,11 +162,44 @@ SSDT | Info | Status
 [SSDT-SLPB.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Sleep Button. | [Functional]
 [SSDT-XSPI.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Intel_PCH_SPI_Controller_(SSDT-XSPI)) | Adds Platform Controller Hub (PCH) to IORegistry. | [Cosmetic]
 
+## ComboJack Installation
+
+- [Download](https://github.com/Heporis/ComboJack) and open terminal, type sudo and press space, drag install.sh file and press enter.
+
+<details>
+  <summary> <h2>How to Disable CFG Lock</h2> </summary>
+  
+- If you got unnormal cpu boost issue or overheating issue, i recommand to do this.
+  - Upgrade your bios to 1.20, could be downloaded in PC Manager on Windows.
+  - Format a usb stick to FAT32.
+  - Create a new folder named "EFI" in root.
+  - Create a new folder named "BOOT" in /EFI/.
+  - Download [cfgunlock.zip](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/cfgunlock.zip)
+  - Copy BOOTx64.efi from cfgunlock.zip to EFI/BOOT in your USB.
+  - Restart and boot with this usb.
+  - After you boot. Press alt and "key next to backspace" in same time.
+  - Use ↑ and ↓ in your keyboard to find "CpuSetup".
+  - Press enter in keyboard to enter "CpuSetup".
+  - You will see this.
+  
+  <img src="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/blob/main/Images/CpuSetup.jpg" width="500">
+  
+  - If 0030-0E value is 01 in your computer continue. If it is 00. You don't need this.
+  - Use ← → ↑ ↓ key to pick it and change to 00.
+  - Press ctrl and w in same time to save setting.
+  - A window says "
+  - Press alt + q to quit.
+  <b>DO NOT use what i uploaded for boot opencore.</b>
+  
+  
+
 ## Credits
   
  - [Dortania](https://dortania.github.io) for developing OpenCore.
  - [Apple](https://www.apple.com) for macOS.
  - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
+ - [Heporis](https://github.com/Heporis) for ComboJack.
+ - [Alex James](https://github.com/al3xtjames) for NoTouchID kext.
  - [Sniki](https://github.com/Sniki) for USB kext.
  - And anyone else that helped to develop and improve hackintoshing.
 
