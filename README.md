@@ -167,7 +167,6 @@ SSDT | Info | Status
  - [Dortania](https://dortania.github.io) for developing OpenCore.
  - [Apple](https://www.apple.com) for macOS.
  - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
- - [RehabMan](https://github.com/RehabMan) for battery patches.
  - [Sniki](https://github.com/Sniki) for USB kext.
  - And anyone else that helped to develop and improve hackintoshing.
 
