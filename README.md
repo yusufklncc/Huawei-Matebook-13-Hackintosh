@@ -32,6 +32,7 @@
   - [What's you have to do](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#whats-you-have-to-do--)
   - [Kexts Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#kext-used)
   - [SSDTs Used](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#ssdt-used)
+  - [Disable CFG Lock](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#how-to-disable-cfg-lock)
   - [Credits](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#credits)
   - [Donate](https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Bağış.md)
   
@@ -108,6 +109,7 @@ Type | Info | Status
 :---------|:---------|:----------
 SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
 Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext and AirportItlwmBigSur.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext and AirportItlwmMonterey in OC/Kexts. | ⚠️ 
+Disable CFG Lock | Here my guide [READ](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#how-to-disable-cfg-lock) | ⚠️
 
 ## Kext Used 
  
@@ -189,9 +191,10 @@ SSDT | Info | Status
   - Press ctrl and w in same time to save setting.
   - A window says "
   - Press alt + q to quit.
-  <b>DO NOT use what i uploaded for boot opencore.</b>
-  
-  
+- <b>DO NOT use what i uploaded for boot opencore.</b>
+  - Now you can disable these quirks in confg/kernel:
+    - AppleCpuPmCfgLock
+    - AppleXcpmCfgLock
 
 ## Credits
   
