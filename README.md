@@ -16,7 +16,7 @@
 </p>
 <p align="center">
 <a href="https://t.me/kaeliyn">
-  <img src="https://img.shields.io/badge/-@kaeliyn-2CA5E0?logo=Telegram&logoColor=blue" width="140"/> </a>
+  <img src="https://img.shields.io/badge/-@kaeliyn-2CA5E0?logo=Telegram&logoColor=blue" width="130"/> </a>
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-lightgrey?logo=YouTube&logoColor=red" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
