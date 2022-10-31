@@ -162,7 +162,7 @@ SSDT | Info | Status
 [SSDT-RMNE.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Ethernet_Controller_(LAN)) | Spoof fake ethernet controller with NullEthernet. | [Functional]
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 [SSDT-SLPB.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Sleep Button. | [Functional]
-[SSDT-UIAC.aml](https://5t33z0.gitbook.io/oc-litte-translated/oc-little/fixes/fixing-usb-issues/usb-port-mapping-via-acpi-macos-11.3+)) | Mapped USB Ports. | [Functional]
+[SSDT-UIAC.aml](https://5t33z0.gitbook.io/oc-litte-translated/oc-little/fixes/fixing-usb-issues/usb-port-mapping-via-acpi-macos-11.3+) | Mapped USB Ports. | [Functional]
 [SSDT-XSPI.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Intel_PCH_SPI_Controller_(SSDT-XSPI)) | Adds Platform Controller Hub (PCH) to IORegistry. | [Cosmetic]
 
 ## ComboJack Installation
