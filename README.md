@@ -10,7 +10,7 @@
 <a href="https://www.apple.com/macos/monterey/">
   <img src="https://img.shields.io/badge/macOS-Monterey_v12.3-blue" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.7.9-9cf" width="155"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.8.5-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
 </p>
@@ -74,6 +74,7 @@ Fingerprint | Unknown | ❌
 
 ## macOS Update History
   
+- ✅ macOS Monterey 12.6  
 - ✅ macOS Monterey 12.3
 - ✅ macOS Big Sur 11.6.5
 
@@ -92,6 +93,8 @@ Touchpad (14 gestures are working)   |  ✅
 Battery status   |  ✅  
 Shutdown / Reboot   |  ✅  
 Fn shortcut keys   |  ✅  
+S3 Sleep / Wake   |  ✅
+S4 Hibernation / Wake   |  ✅
 
 ## What's not working 💻
   
@@ -100,15 +103,12 @@ Type | Info | Status
 Camera | Not supported in macOS | ❌ 
 Fingerprint | Not supported in macOS | ❌
 NVIDIA GeForce MX250 | Not supported in macOS | ❌
-S3 Sleep / Wake   |  I don't have Type-C USB. If you map the USB Ports it will work. | ⚠️
-S4 Hibernation / Wake   |  I don't have Type-C USB. If you map the USB Ports it will work. | ⚠️
 
 ## What's you have to do  💻
   
 Type | Info | Status
 :---------|:---------|:----------
 SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
-Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext and AirportItlwmBigSur.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext and AirportItlwmMonterey in OC/Kexts. | ⚠️ 
 Disable CFG Lock | Here my guide [READ](https://github.com/yusufklncc/Huawei-Matebook-13-Hackintosh#how-to-disable-cfg-lock) | ⚠️
 
 ## Kext Used 
@@ -162,6 +162,7 @@ SSDT | Info | Status
 [SSDT-RMNE.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Ethernet_Controller_(LAN)) | Spoof fake ethernet controller with NullEthernet. | [Functional]
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 [SSDT-SLPB.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Sleep Button. | [Functional]
+[SSDT-UIAC.aml](https://5t33z0.gitbook.io/oc-litte-translated/oc-little/fixes/fixing-usb-issues/usb-port-mapping-via-acpi-macos-11.3+)) | Mapped USB Ports. | [Functional]
 [SSDT-XSPI.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Intel_PCH_SPI_Controller_(SSDT-XSPI)) | Adds Platform Controller Hub (PCH) to IORegistry. | [Cosmetic]
 
 ## ComboJack Installation
